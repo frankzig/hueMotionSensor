@@ -86,7 +86,7 @@ metadata {
 			state "default", action: "refresh.refresh", icon: "st.secondary.refresh"
 		}
 
-		main("motion")
+		main("temperature")
         details(["motion","temperature","illuminance","battery","refresh"])
 	}
 }
